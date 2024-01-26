@@ -1,0 +1,12 @@
+#Game {
+    background-color:chartreuse;
+    font-style: inherit;
+    color:darkred;
+}
+
+#anime{
+    background-color:blue;
+    color:darkgoldenrod;
+    border: solid 2px red;
+}
+
