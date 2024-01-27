@@ -1,0 +1,21 @@
+#Game {
+    background-color:chartreuse;
+    font-style: inherit;
+    color:darkred;
+}
+
+#anime{
+    background-color:blue;
+    color:darkgoldenrod;
+    border: solid 2px red;
+}
+
+#fimg{
+    padding: 10px 10px 10px 10px;
+}
+
+h1{
+    font-style: normal;
+    font-family: 'Comfortaa', sans-serif;
+}
+
