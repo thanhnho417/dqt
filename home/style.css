@@ -19,3 +19,15 @@ h1{
     font-family: 'Comfortaa', sans-serif;
 }
 
+h2{
+    font-style: normal;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    margin: 10px 10px 10px 100px;
+}
+
+.fimg2{
+    margin: 5px 5px 10px 50px;
+}
