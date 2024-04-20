@@ -19,3 +19,66 @@
     text-align: right;
     padding: 0 20px 0 0;
 }
+
+#my-video {
+    display: block;
+    margin: auto;
+}
+
+.chucnang {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.trinhbay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 20px 20px 20px 20px;
+}
+#ten {
+    display: block;
+    margin-left: 65px;
+    margin-right: 100px;
+    margin-top: 0;
+    width: auto;
+    z-index: 3;
+}
+
+#anh-dd {
+    overflow: auto;
+    z-index: 2;
+}
+
+#tieude {
+    
+}
+
+.contents {
+    font-family: "Quicksand Light", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+    background-color: #3a3a3a;
+    text-align: left;
+    font-weight: 100;
+    padding: 0 0 0 27px;
+    border: 1px solid;
+    
+}
+
+.video {
+    padding: 20px 20px 20px 20px;
+}
+
+.nhung {
+    padding: 10px 10px 10px 10px;
+}
+
+body {
+    margin: 20px 20px 20px 20px;
+}
