@@ -25,12 +25,9 @@
     margin: auto;
 }
 
-.chucnang {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-right: 20px;
+
+#chucnang {
+    text-align: right;
 }
 
 .trinhbay {
@@ -42,9 +39,9 @@
 }
 #ten {
     display: block;
-    margin-left: 65px;
+    margin-left: 30px;
     margin-right: 100px;
-    margin-top: 0;
+    margin-top: 10px;
     width: auto;
     z-index: 3;
 }
@@ -93,3 +90,9 @@ body {
     margin: 0 20px 0 20px;
     padding: 10px 10px 10px 10px;
 }
+
+.ahead {
+    display: flex;
+    justify-content: flex-start;
+}
+
