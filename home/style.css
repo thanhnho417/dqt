@@ -54,8 +54,10 @@
     z-index: 2;
 }
 
-#tieude {
-    
+#anhlop {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 }
 
 .contents {
@@ -71,11 +73,23 @@
     
 }
 
-.video {
-    padding: 20px 20px 20px 20px;
+.video-wrapper {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 20px 0 20px 0;
+    margin: auto
 }
 
-.nhung {
+
+iframe {
+    
+}
+
+
+body {
+    margin: 0 20px 0 20px;
     padding: 10px 10px 10px 10px;
 }
-
