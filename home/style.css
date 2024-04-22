@@ -34,7 +34,7 @@
 }
 
 .trinhbay {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: auto;
@@ -79,6 +79,3 @@
     padding: 10px 10px 10px 10px;
 }
 
-body {
-    margin: 20px 20px 20px 20px;
-}
