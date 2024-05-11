@@ -89,6 +89,8 @@
 }
 
 .menubar ul {
+    font-family: "Quicksand Light", sans-serif;
+    font-style: normal;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -120,6 +122,6 @@
 
 .menubar {
     position: relative;
-    margin-right: 20px;
+    margin-right: auto;
     
 }
