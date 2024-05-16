@@ -155,6 +155,7 @@ span {
 .music-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     max-width: 768px;
     flex-wrap: wrap;
