@@ -160,4 +160,5 @@ span {
     max-width: 768px;
     flex-wrap: wrap;
     margin: 0 auto;
+    gap: 50px;
 }
