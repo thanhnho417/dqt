@@ -74,6 +74,14 @@ span {
     font-family: "Comfortaa", sans-serif;
     font-weight: normal;
 }
+
+span a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
 .chamngon {
     display: flex;
     justify-content: center;
