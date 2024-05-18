@@ -4,9 +4,7 @@ header {
     align-items: center;
     padding: 5px;
     background-color: #386e61;
-    
 }
-
 body {
     margin: 10px;
 }
@@ -18,7 +16,6 @@ body {
     text-align: center;
     margin-right: 10px;
 }
-
 .left-selection {
     display: flex;
     align-items: center;
@@ -29,7 +26,6 @@ body {
     border-radius: 0;
     margin-right: 10px;
 }
-
 .menu {
     display: flex;
     padding-right: 25px;
@@ -47,7 +43,6 @@ body {
     color: #ffffff;
     background-color: gray;
 }
-
 footer {
     background-color: black;
     margin-top: 20px;
@@ -74,7 +69,6 @@ span {
     font-family: "Comfortaa", sans-serif;
     font-weight: normal;
 }
-
 span a {
     color: white;
 }
@@ -153,7 +147,6 @@ a {
     margin: 0 auto;
     gap: 50px;
 }
-
 .heading {
     display: flex;
     justify-content: center;
@@ -161,7 +154,6 @@ a {
     font-style: normal;
     font-size: 30px;
 }
-
 .linker {
     font-family: "Comfortaa", sans-serif;
     font-weight: normal;
@@ -170,7 +162,6 @@ a {
     justify-content: center;
     margin-bottom: 50px;
 }
-
 .image-with-link {
     display: flex;
     justify-content: center;
@@ -178,7 +169,6 @@ a {
     margin: 0 auto;
     
 }
-
 .combine-2-items {
     display: flex;
     justify-content: center;
