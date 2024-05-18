@@ -78,7 +78,6 @@ span {
 span a {
     color: white;
 }
-
 a {
     text-decoration: none;
 }
@@ -161,4 +160,28 @@ a {
     font-family: "Noto Serif", serif;
     font-style: normal;
     font-size: 30px;
+}
+
+.linker {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.image-with-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.combine-2-items {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
