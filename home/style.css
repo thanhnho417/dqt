@@ -6,7 +6,7 @@ header {
     background-color: #386e61;
 }
 body {
-    margin: 10px;
+    margin: 5px;
 }
 
 .website-name {
@@ -164,14 +164,54 @@ a {
 }
 .image-with-link {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
+    width: 360px;  
+}
+
+.image-with-link img {
+    margin: 10px;
+}
+
+.image-with-link a {
+    margin: 10px;
+    color: black;
 }
 .combine-2-items {
     display: flex;
     justify-content: center;
     max-width: 100%;
     flex-wrap: wrap;
+}
+
+.align-text {
+    text-align: center;
+}
+
+.heading-with-button {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.heading-with-button a {
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px 15px;
+    color: #546e7a;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.heading-text {
+    text-align: left;
+    margin-left: 20px;
+    font-family: "Comfortaa", sans-serif;
+}
+.heading-button {
+    text-decoration: none;
+    align-items: center;
+    margin: 5px;
 }
