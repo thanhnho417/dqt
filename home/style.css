@@ -194,14 +194,16 @@ a {
     justify-content: space-between;
     text-align: center;
     align-items: center;
+    size: 15px;
+    border: 1px solid;
+    border-color: #546e7a;
+    margin-top: 10px;
 }
 
 .heading-with-button a {
     margin: 15px;
-    border-radius: 10px;
-    border: 1px solid;
     padding: 10px 15px;
-    color: #546e7a;
+    color: white;
     font-family: "Comfortaa", sans-serif;
 }
 
@@ -214,4 +216,17 @@ a {
     text-decoration: none;
     align-items: center;
     margin: 5px;
+}
+
+.heading-button button {
+    border: none;
+    color: white;
+    background-color: #0d4eaf;
+    position: relative;
+    font-size: 15px;
+    transition: background-color 0.5s;
+    padding: 10px 15px;
+    margin: 10px;
+    width: 240px;
+    border-radius: 20px;
 }
