@@ -224,9 +224,14 @@ a {
     background-color: #0d4eaf;
     position: relative;
     font-size: 15px;
-    transition: background-color 0.5s;
+    transition: background-color 0.2s;
     padding: 10px 15px;
     margin: 10px;
     width: 240px;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.heading-button button:hover {
+    background-color: green;
 }
