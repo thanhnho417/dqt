@@ -20,7 +20,7 @@
             list-style: none;
         }
 
-        .playlist li{
+        .playlist li {
             margin: 25px;
             border: 1px solid;
             border-radius: 25px;
@@ -28,21 +28,25 @@
             font-family: "Noto Sans", sans-serif;
         }
 
-    
-        .playlist li:hover{
+        .playlist li:hover {
             cursor: pointer;
             color: rgb(255, 255, 255);
             background-color: green;
             transform: background-color 0.2s;
-            
         }
+
+        .playlist li.active {
+            font-weight: bold;
+            color: white;
+            background-color: green;
+        }
+
         .playlist {
             display: flex;
             position: relative;
             justify-content: center;
             border: 1px solid;
             align-items: center;
-    
             margin-left: 50px;
             margin-right: 50px;
             overflow-y: hidden;
@@ -56,7 +60,6 @@
             <source src="" type="audio/mp3">
             Your browser does not support the audio element.
         </audio>
-        
     </div>
     <div class="playlist">
         <ul id="playlist">
@@ -79,15 +82,15 @@
 
             for (let track of tracks) {
                 track.addEventListener('click', function () {
-            // Remove active class from all tracks
+                    // Remove active class from all tracks
                     for (let t of tracks) {
                         t.classList.remove('active');
                     }
 
-            // Add active class to the clicked track
+                    // Add active class to the clicked track
                     this.classList.add('active');
 
-            // Update the audio source and play
+                    // Update the audio source and play
                     audioPlayer.src = this.getAttribute('data-src');
                     audioPlayer.play();
                 });
