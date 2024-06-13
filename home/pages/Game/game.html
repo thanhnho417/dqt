@@ -1,52 +1,50 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Game</title>
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+        <link rel="icon" type="image/x-icon" href="../../web.jpg">
         <link rel="stylesheet" href="../../style.css">
-        <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
-        <link rel="icon" type="image/x-icon" href="../../Images/web.jpg">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Comfortaa:wght@300..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Comfortaa:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header class="header">
+        <header>
             <div class="left-selection">
-                <img class="avatar" src="../../Images/web.jpg" alt="Avatar" height="50" width="50">
-                <span class="website-name"><a href="../../index.html">oce</a></span>
+                <img src="../../web.jpg" alt="Ảnh đại diện" width="40" height="40">
+                <a href="../../home.html">oce</a>
             </div>
-            <nav class="menu" id="menu">
-                <a href="../Giới thiệu/introduce.html">Giới thiệu</a>
-                <a href="../Game/game.html">Game</a>
-                <a href="../Đa phương tiện/media.html">Đa phương tiện</a>
-                <a href="../Anime/anime.html">Anime</a>
-                <a href="../Link/link.html">Link</a>
-                <a href="../Project/project.html">Project</a>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="../introduce/introduce.html">Giới thiệu</a></li>
+                    <li><a href="../game/game.html">Game</a></li>
+                    <li><a href="../media/media.html">Đa phương tiện</a></li>
+                    <li><a href="../anime/anime.html">Anime</a></li>
+                    <li><a href="../links/links.html">Link</a></li>
+                    <li><a href="../project/project.html">Project</a></li>
+                </ul>
+                <ul>
+                    <li class="hideOnMobile"><a href="../introduce/introduce.html">Giới thiệu</a></li>
+                    <li class="hideOnMobile"><a href="../game/game.html">Game</a></li>
+                    <li class="hideOnMobile"><a href="../media/media.html">Đa phương tiện</a></li>
+                    <li class="hideOnMobile"><a href="../anime/anime.html">Anime</a></li>
+                    <li class="hideOnMobile"><a href="../links/links.html">Link</a></li>
+                    <li class="hideOnMobile"><a href="../project/project.html">Project</a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
             </nav>
-            <div class="hamburger" id="hamburger">
-                &#9776;
-            </div>
-            
         </header>
-            <div class="heading">
-                <p>Game</p>
-            </div>
+        <div class="heading">
+            Game
+        </div>
         <footer>
-            <a href="https://sites.google.com/view/dqtblog">==> Trang web cũ</a>
-            <p>&copy; oce - Do not Reup - Released in 2024</p>
+            &copy; oce - Do not Reup - Released in 2024
         </footer>
-        <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
-        <script>
-            document.getElementById('hamburger').addEventListener('click', function() {
-            var menu = document.getElementById('menu');
-            if (menu.style.display === 'block') {
-                menu.style.display = 'none';
-            } else {
-                menu.style.display = 'block';
-            }
-            });
-        </script>
+        <script src="script.js"></script>
+        <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
     </body>
 </html>
