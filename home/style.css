@@ -91,7 +91,7 @@ nav a:hover{
     }
     
 }
-@media(max-width:453px){
+@media(max-width:414px){
     .sidebar{
         width: 100%;
     }
@@ -179,4 +179,37 @@ footer{
     text-align: center;
     font-size: 32px;
     font-weight: bold;
+}
+.option-bar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.option-bar .option{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.option-bar .image-detail{
+    margin: 5px;
+    max-width: 60px;
+}
+.option-bar .option-bar{
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+}
+.option-bar .detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    max-width: 100px;
+}
+.option-bar .option .image-detail img{
+    width: 100%;
+    margin: 0 auto;
 }
