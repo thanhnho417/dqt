@@ -87,7 +87,7 @@ nav a:hover{
         display: block;
     }
     .sidebar{
-        transition: 50ms ease-out;
+        transition: 200ms ease-out;
     }
     
 }
