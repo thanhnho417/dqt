@@ -313,7 +313,7 @@ footer{
     transform: scale(1.1);
 }
 .box:hover .overlay{
-    height: 25%;
+    height: 50%;
 }
 .article-area{
     display: grid;
@@ -334,9 +334,10 @@ footer{
 }
 .row .left img{
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 15px;
+    margin: 0 auto;
 }
 .row .right{
     display: flex;
@@ -370,6 +371,7 @@ footer{
     border: 1px solid;
     padding: 10px 20px 10px 20px;
     border-radius: 25px;
+    width: 100%;
 }
 .row .right .content:hover a{
     background-color: rgb(104, 104, 219);
