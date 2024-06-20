@@ -79,25 +79,7 @@ nav a:hover{
 .menu-button:hover{
     background-color: rgb(39, 82, 57);
 }
-@media(max-width:799px){
-    .hideOnMobile{
-        display: none;
-    }
-    .menu-button{
-        display: block;
-    }
-    .sidebar{
-        transition: 200ms ease-out;
-    }
-    .row .right .content{
-        padding-left: 0;
-    }
-}
-@media(max-width:413px){
-    .sidebar{
-        width: 100%;
-    }
-}
+
 .navigation{
     background-color: black;
     width: 100%;
@@ -154,15 +136,15 @@ footer{
     padding-bottom: 20px;
 }
 
+.image-wrapper{
+    padding: 10px 20%;
+}
 .image-wrapper img{
-    text-align: center;
-    max-width: 906px;
-    max-height: 600px;
-    height: 100%;
-    width: 100%;
-    margin: auto;
     display: block;
-    padding: 10px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
 }
 .music-wrapper{
     display: flex;
@@ -176,13 +158,7 @@ footer{
     color: #386e61;
 }
 .video-wrapper{
-    max-width: 960px;
-    max-height: 540px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+    padding: 10px 19%;
 }
 .video-wrapper video{
     display: block;
@@ -190,6 +166,7 @@ footer{
     align-items: center;
     font-family: "Noto Sans", sans-serif;
 }
+
 .heading{
     max-width: 100%;
     height: 150px;
@@ -330,7 +307,6 @@ footer{
     grid-template-columns: repeat(2,1fr);
     grid-gap: 15px 10px;
     padding: 10px;
-
 }
 .row .left{
     overflow: hidden;
@@ -384,6 +360,37 @@ footer{
 .row .right .content:active a{
     background-color: green;
 }
+
+.game-wrapper {
+    padding: 10px 20%;
+}
+.game-wrapper embed{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+.table-wrapper{
+    padding: 10px 20%;
+    overflow-x: auto;
+    font-family: "Noto Sans", sans-serif;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table,th,td{
+    border: 1px solid black;
+}
+th,td{
+    padding: 10px;
+    text-align: left;
+    color: black;
+}
+td svg{
+    color: black;
+}
 @media(max-width:750px){
     .row{
         width: 85%;
@@ -392,12 +399,47 @@ footer{
     .row .left{
         padding: 10px 40px 10px 40px;
     };
+    .table-wrapper{
+        width: 90%;
+    }
 }
-
-.game-wrapper embed{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    display: grid;
-    place-items: center;
+@media(max-width:799px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+    .sidebar{
+        transition: 200ms ease-out;
+    }
+    .row .right .content{
+        padding-left: 0;
+    }
+}
+@media(max-width:413px){
+    .sidebar{
+        width: 100%;
+    }
+    .table-wrapper{
+        width: 100%;
+        padding: 10px;
+    }
+    
+}
+@media(max-width:1520px){
+    .video-wrapper{
+        padding: 10px 10%;
+    }
+    .image-wrapper{
+        padding: 10px 10%;
+    }
+}
+@media(max-width:768px){
+    .video-wrapper{
+        padding: 10px;
+    }
+    .image-wrapper {
+        padding: 10px;
+    }
 }
